@@ -21,6 +21,3 @@ export DISPLAY=:0
 midori -e Fullscreen -a file:///home/pearl/index.html
 
 echo "Finished script at $(date)" >> /home/pearl/start.log
-
-it launched the midori browser but did not 
-echo "Finished script at $(date)" 
