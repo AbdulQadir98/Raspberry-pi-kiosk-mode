@@ -19,5 +19,6 @@ Adding & at the end of the command runs Midori in the background, allowing the s
 midori -e Fullscreen -a file:///home/pearl/index.html &
 sleep 5
 echo "Finished script at $(date)" >> /home/pearl/start.log
+```
 
 4. Exit Behavior: Ensure that the script is not terminating prematurely due to a system configuration issue. Make sure that the script is executed in an environment where it has sufficient permissions and resources.
